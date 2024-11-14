@@ -1,0 +1,35 @@
+// {
+//     "compilerOptions": {
+//       "jsx": "react-jsx",
+//       "baseUrl": "src",
+//       "paths": {
+//         "@layouts/*": ["layouts/*"],
+//         "@app/*": ["app/*"],
+//         "@pages/*": ["pages/*"],
+//         "@features/*": ["features/*"],
+//         "@widgets/*": ["widgets/*"],
+//         "@entities/*": ["entities/*"],
+//         "@shared/*": ["shared/*"]
+//       },
+//       "esModuleInterop": true
+//     }
+//   }
+
+{
+  "compilerOptions": {
+    // "strict": true,
+    "jsx": "react-jsx",
+    "baseUrl": "src",
+    "paths": {
+      "@layouts/*": ["layouts/*"],
+      "@app/*": ["app/*"],
+      "@pages/*": ["pages/*"],
+      "@features/*": ["features/*"],
+      "@widgets/*": ["widgets/*"],
+      "@entities/*": ["entities/*"],
+      "@shared/*": ["shared/*"]
+    },
+    "esModuleInterop": true,
+    "moduleResolution": "node"
+  }
+}
