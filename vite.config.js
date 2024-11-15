@@ -11,13 +11,9 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      "@app": resolve(__dirname, "./src/app"),
-      "@pages": resolve(__dirname, "./src/pages"),
-      "@features": resolve(__dirname, "./src/features"),
-      "@widgets": resolve(__dirname, "./src/widgets"),
-      "@entities": resolve(__dirname, "./src/entities"),
-      "@shared": resolve(__dirname, "./src/shared"),
-      '@layouts': resolve(__dirname, 'src/layouts'),
-   },
+      '@components': resolve(__dirname, './src/components'),
+      '@assets': resolve(__dirname, './src/assets'),
+      '@data': resolve(__dirname, './src/components/data'),
+    },
   },
 });

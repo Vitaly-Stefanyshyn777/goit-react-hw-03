@@ -6,9 +6,7 @@ export default {
   extends: [
     "eslint:recommended",
     "plugin:react/recommended",
-    "plugin:@typescript-eslint/recommended",
   ],
-  parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaVersion: 12,
     sourceType: "module",
@@ -16,14 +14,13 @@ export default {
       jsx: true,
     },
   },
-  plugins: ["react", "@typescript-eslint"],
+  plugins: ["react"],
   rules: {
-    "react/react-in-jsx-scope": "off", // Не потрібний для React 17+
     "semi": ["error", "always"],
   },
   settings: {
     react: {
-      version: "detect", // Автоматичне визначення версії React
+      version: "detect", 
     },
   },
 };
